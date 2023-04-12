@@ -1,0 +1,1037 @@
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main{
+    background-color: #9e588b;
+}
+
+/* HEADER */
+
+.img-navbar {
+    height: 75px;
+}
+
+
+#carouselExampleAutoplaying img {
+    height: 900px;
+}
+
+/* INDEX */
+
+.flex-index {
+    display: flex;
+    justify-content: space-between;
+
+
+    background-color: #9e588b;
+    color: #eee;
+    gap: 10px;
+
+}
+
+.flex-index img {
+    width: 300px;
+    height: 900px;
+    object-fit: cover;
+}
+
+.flex-index h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+.flex-index h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.flex-index p {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* DISCOGRAFIA */
+
+.main-discografia {
+    background-color: #9e588b;
+}
+
+.discografia {
+    text-align: center;
+    color: #f7c9f7;
+
+
+}
+
+.inicio-disco {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    text-align: center;
+    color: #f7c9f7;
+}
+
+.inicio-disco h3 {
+    font-size: 20px;
+}
+
+.card {
+    background-color: #fdfdfd;
+}
+
+.btn {
+    background-color: rgb(204, 0, 211);
+}
+
+.discos {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* TOUR */
+
+.tour {
+    text-align: center;
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.h1-tour {
+    text-align: center;
+}
+
+.h2-tour {
+    text-align: center;
+}
+
+.argentina {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    margin: 10px;
+}
+
+.argentina img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.texto {
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.eeuu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px;
+}
+
+.eeuu img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.uruguay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.uruguay img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/* GALERIA */
+
+.h1-galeria {
+    text-align: center;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: auto;
+    grid-template-areas:
+        'area1 area2 area3'
+        'area4 area5 area6'
+    ;
+
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 15px;
+}
+
+.grilla img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.c1 {
+    grid-area: area1;
+}
+
+.c2 {
+    grid-area: area2;
+}
+
+.c3 {
+    grid-area: area3;
+}
+
+.c4 {
+    grid-area: area4;
+}
+
+.c5 {
+    grid-area: area5;
+}
+
+.c6 {
+    grid-area: area6;
+}
+
+
+.h2-galeria {
+    text-align: center;
+    font-size: 20px;
+}
+
+.grilla2 {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.grilla2 h3 {
+    font-size: 20px;
+}
+
+.grilla3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.grilla3 h3 {
+    font-size: 20px;
+}
+
+/* CONTACTO */
+
+.sec-contacto {
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacto1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafo-contacto {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    text-align: justify;
+}
+
+.form-register {
+    width: 500px;
+    background-color: #8a4378;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255)
+}
+
+.form {
+    width: 100%;
+    background-color: #0b040c5e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.boton {
+    width: 100%;
+    background-color: #000000;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 15px;
+
+}
+
+/* FOOTER */
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* IMAGENES ALAS */
+
+.mauro {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.duko-img {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* REDES SOCIALES Y TEXTO */
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    object-fit: cover;
+
+}
+
+footer p {
+    color: #eee;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+/* MEDIAS */
+
+/* MEDIA INDEX */
+
+@media screen and (min-width: 360px) {
+    .flex-index {
+        flex-direction: column;
+    }
+
+
+    .flex-index img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .flex-index {
+        flex-direction: row;
+    }
+
+
+    .flex-index img {
+        width: 100px;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+    .flex-index {
+        flex-direction: row;
+    }
+
+    .flex-index img {
+        width: 150px;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 860px) {
+    .flex-index {
+        flex-direction: row;
+    }
+
+    .flex-index img {
+        width: 200px;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .flex-index {
+        flex-direction: row;
+    }
+
+    .flex-index img {
+        width: 250px;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .flex-index {
+        flex-direction: row;
+    }
+
+    .flex-index img {
+        width: 300px;
+        height: 900px;
+    }
+
+
+}
+
+/* MEDIA DISCOGRAFIA */
+
+@media screen and (min-width: 360px) {
+
+    .discografia {
+        font-size: 20px;
+    }
+
+    .inicio-disco {
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .inicio-disco h3 {
+        font-size: 16px;
+    }
+
+
+    .discos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 480px) {
+
+    .discografia {
+        font-size: 25px;
+    }
+
+    .inicio-disco {
+        font-size: 18px;
+    }
+
+    .inicio-disco h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .discografia {
+        font-size: 25px;
+    }
+
+    .inicio-disco {
+        font-size: 18px;
+    }
+
+    .inicio-disco h3 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .discografia {
+        font-size: 30px;
+    }
+
+    .inicio-disco {
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .inicio-disco h3 {
+        font-size: 20px;
+    }
+
+
+    .discos {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .discografia {
+        font-size: 30px;
+    }
+
+    .inicio-disco {
+        flex-direction: row;
+        font-size: 16px;
+    }
+
+    .inicio-disco h3 {
+        font-size: 20px;
+    }
+
+
+    .discos {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* MEDIAS TOUR */
+
+@media screen and (min-width: 360px) {
+
+    .argentina {
+        flex-direction: column;
+
+    }
+
+    .argentina img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .eeuu {
+        flex-direction: column;
+    }
+
+    .eeuu img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .uruguay {
+        flex-direction: column;
+    }
+
+    .uruguay img {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+@media screen and (min-width: 480px) {
+
+    .argentina {
+        flex-direction: row;
+
+    }
+
+    .argentina img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .texto {
+
+        font-size: 16px;
+
+    }
+
+    .eeuu {
+        flex-direction: row;
+    }
+
+    .eeuu img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .uruguay {
+        flex-direction: row;
+    }
+
+    .uruguay img {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+@media screen and (min-width: 760px) {
+
+    .argentina {
+        flex-direction: row;
+
+    }
+
+    .argentina img {
+        width: 350px;
+        height: 100%;
+
+    }
+
+    .texto {
+
+        font-size: 16px;
+
+    }
+
+    .eeuu {
+        flex-direction: row;
+    }
+
+    .eeuu img {
+        width: 360px;
+        height: 100%;
+    }
+
+    .uruguay {
+        flex-direction: row;
+    }
+
+    .uruguay img {
+        width: 350px;
+        height: 100%;
+
+    }
+}
+
+@media screen and (min-width: 860px) {
+
+    .argentina {
+        flex-direction: row;
+
+    }
+
+    .argentina img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .texto {
+
+        font-size: 16px;
+
+    }
+
+    .eeuu {
+        flex-direction: row;
+    }
+
+    .eeuu img {
+        width: 460px;
+        height: 100%;
+    }
+
+    .uruguay {
+        flex-direction: row;
+    }
+
+    .uruguay img {
+        width: 450px;
+        height: 100%;
+
+    }
+}
+
+/* MEDIA GALERIA */
+
+@media screen and (min-width: 360px) {
+
+    .h1-galeria {
+        text-align: center;
+    }
+
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        grid-template-rows: repeat(6, 300px);
+        grid-template-areas:
+            'area1'
+            'area2'
+            'area3'
+            'area4'
+            'area5'
+            'area6'
+        ;
+
+    }
+
+    .grilla img {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .grilla2 {
+       flex-direction: column;
+    }
+
+    .grilla2 iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    .grilla2 h3 {
+        font-size: 16px;
+    }
+
+    .grilla3 {
+        flex-direction: column;
+    }
+
+    .grilla3 iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    .grilla3 h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+
+    .h1-galeria {
+        text-align: center;
+    }
+
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(6, 400px);
+        grid-template-areas:
+            'area1'
+            'area2'
+            'area3'
+            'area4'
+            'area5'
+            'area6'
+        ;
+
+    }
+
+    .grilla img {
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .grilla2 iframe{
+        width: 400px;
+        height: 400px;
+    }
+
+    .grilla2 h3 {
+        font-size: 18px;
+    }
+
+    .grilla3 iframe{
+        width: 400px;
+        height: 400px;
+    }
+
+    .grilla3 h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .h1-galeria {
+        text-align: center;
+    }
+
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(1, 500px);
+        grid-template-rows: repeat(6, 500px);
+        grid-template-areas:
+            'area1'
+            'area2'
+            'area3'
+            'area4'
+            'area5'
+            'area6'
+        ;
+
+    }
+
+    .grilla img {
+        width: 500px;
+        height: 500px;
+
+    }
+
+    .grilla2 iframe{
+        width: 500px;
+        height: 500px;
+    }
+
+    .grilla2 h3 {
+        font-size: 20px;
+    }
+
+    .grilla3 iframe{
+        width: 500px;
+        height: 500px;
+    }
+
+    .grilla3 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .h1-galeria {
+        text-align: center;
+    }
+
+    .grilla {
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows: repeat(3, 500px);
+        grid-template-areas:
+            'area1 area2'
+            'area3 area4'
+            'area5 area6'
+        ;
+
+    }
+
+    .grilla img {
+        width: 500px;
+        height: 500px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .h1-galeria {
+        text-align: center;
+    }
+
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(3, 370px);
+        grid-template-rows: repeat(2, 400px);
+        grid-template-areas:
+            'area1 area2 area3'
+            'area4 area5 area6'
+
+        ;
+
+    }
+
+    .grilla img {
+        width: 370px;
+        height: 400px;
+
+    }
+
+    .grilla2{
+        flex-direction: row;
+    }
+
+    .grilla2 iframe{
+        width: 370px;
+        height: 400px;
+    }
+
+    .grilla3{
+        flex-direction: row;
+    }
+
+    .grilla2 h3 {
+        font-size: 20px;
+    }
+
+    .grilla3 iframe{
+        width: 370px;
+        height: 400px;
+    }
+
+    .grilla3 h3 {
+        font-size: 20px;
+    }
+}
+
+
+/* MEDIA CONTACTO */
+
+@media screen and (min-width: 360px) {
+
+    .sec-contacto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto1 {
+        margin: 20px;
+        font-size: 15px;
+    }
+
+    .parrafo-contacto {
+        font-size: 15px;
+    }
+
+    .form-register {
+        width: 275px;
+
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+
+    .sec-contacto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto1 {
+        font-size: 20px;
+
+    }
+
+    .parrafo-contacto {
+        font-size: 20px;
+    }
+
+    .form-register {
+        width: 350px;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .sec-contacto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto1 {
+        font-size: 20px;
+
+    }
+
+    .parrafo-contacto {
+        font-size: 20px;
+    }
+
+    .form-register {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .sec-contacto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto1 {
+        font-size: 25px;
+
+    }
+
+    .parrafo-contacto {
+        font-size: 20px;
+    }
+
+    .form-register {
+        width: 500px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .sec-contacto {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contacto1 {
+        font-size: 25px;
+
+    }
+
+    .parrafo-contacto {
+        font-size: 20px;
+    }
+
+    .form-register {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .sec-contacto {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contacto1 {
+        font-size: 25px;
+
+    }
+
+    .parrafo-contacto {
+        font-size: 20px;
+    }
+
+    .form-register {
+        width: 550px;
+    }
+
+}
